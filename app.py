@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+# coding: utf-8
 
 # Trends in Number of COVID-19 and Vaccine - Visualization
 
@@ -10,7 +12,8 @@ import datetime
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 
-path = '/data'
+# route folder setting (your laptop's folder)
+path = 'data/'
 
 ### Data
 df = pd.read_csv(path + 'covid_vaccine.csv')
